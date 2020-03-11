@@ -3,10 +3,86 @@
 <head>
 <meta charset="utf-8">
 <title>无标题文档</title>
+	<script language="javascript" type="text/javascript" src="https://cdn.staticfile.org/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+var a_idx = 0;
+jQuery(document).ready(function($) {
+$("body").click(function(e) {
+var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+var $i = $("<span/>").text(a[a_idx]);
+a_idx = (a_idx + 1) % a.length;
+var x = e.pageX,
+y = e.pageY;
+$i.css({
+"z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+"top": y - 20,
+"left": x,
+"position": "absolute",
+"font-weight": "bold",
+"color": "#ff6651"
+});
+$("body").append($i);
+$i.animate({
+"top": y - 180,
+"opacity": 0
+},
+1500,
+function() {
+$i.remove();
+});
+});
+});
+</script>
 </head>
-<ol><li>编程猫(52scr)：<a href="https://shequ.codemao.cn/user/329533" title="52scr">点此</a>. 
-3.卡搭(what！):<a href="https://kada.163.com/u/1345207.htm" title="what！">点此</a>. </li><li>小马王(what): <a href="https://world.xiaomawang.com/w/person/project/all/289716" title="what">点此</a>. 
-4.阿尔法营(what_)：<a href="https://aerfaying.com/Users/1091506" title="what_">点此</a></li></ol>
-<body>
-</body>
-</html>
+
+<style type="text/css">
+	       body {
+            font-family: "Microsoft Yahei", "PingFang", "Arial";
+            text-align: center;
+            background-color: #fafafa;
+        }
+
+        p {
+            line-height: 1.5;
+            font-size: 20px;
+            color: #212121;
+            font-weight: 300;
+            text-align: left;
+        }
+        h1 {
+            line-height: 1.5;
+            font-size: 30px;
+            color: #212121;
+            font-weight: 300;
+            text-align: left;
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #fff;
+            }
+
+            .main {
+                border-left: 1px solid #dcddde;
+                border-right: 1px solid #dcddde;
+                background-color: #fafafa;
+            }
+
+            .page-content {
+                margin-left: 40px;
+                margin-right: 40px;
+                padding-top: 40px;
+            }
+
+            .footer {
+                margin-top: 135px;
+            }
+
+        }
+        
+	</style>
+
+	<div class="main">
+<center> <hr/> <p>sc编程论坛 <a href="https://sccode.flarum.cloud/">sccode.flarum.cloud/</a>黑洞论坛<a href="https://heidong.flarum.cloud/">heidong.flarum.cloud/</a></p> <hr/> <hr/> <h1>个人介绍</h1><p>身高:17x (cm)</p><p>体重:1xx (斤)</p><p>名:我哪知道？</p><p>所在地:3301 0571</p><p>生日 2006-xx-1x</p><p>本人工作室：黑洞工作室<a href="https://jq.qq.com/?_wv=1027&amp;k=51IAz7x" title="QQ群935252161">qq群：935252161</a></p><p>本人QQ:3274235903, 微信wxhID8888z</p><p>性别:<code>man</code></p><p>没有对象</p><p> <hr/> <h1>本人有多个账号</h1> <p>编程猫(52scr)：<a href="https://shequ.codemao.cn/user/329533" title="52scr">点此</a>. 3.卡搭(what！):<a href="https://kada.163.com/u/1345207.htm" title="what！">点此</a>. </p><p>小马王(what): <a href="https://world.xiaomawang.com/w/person/project/all/289716" title="what">点此</a>. 4.<code>欢迎合作</code></p> <hr/> <h1>本人在更新且<code>求精</code>的作品（点击图片打开）:</h1> <p>黑洞OS M<a href="https://www.aerfaying.com/Projects/344130"><img alt="" src="https://asset.mozhua.org:444/Media?name=E9B778C1E4BE768DEDA80425454EBD35.png"/></a></p><p>黑洞OS PC<a href="https://www.aerfaying.com/Projects/339156"><img alt="" src="https://asset.mozhua.org:444/Media?name=7C34672BA145EE8B8A4B2BA1DB8733E3.png"/></a></p> <hr/> <h1>任意平台粉丝超500女装，我知道没人想看</h1> </div></center> <body> </body> </html>
