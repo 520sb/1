@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<script language="javascript" type="text/javascript" src="https://cdn.staticfile.org/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+var a_idx = 0;
+jQuery(document).ready(function($) {
+$("body").click(function(e) {
+var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+var $i = $("<span/>").text(a[a_idx]);
+a_idx = (a_idx + 1) % a.length;
+var x = e.pageX,
+y = e.pageY;
+$i.css({
+"z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+"top": y - 20,
+"left": x,
+"position": "absolute",
+"font-weight": "bold",
+"color": "#ff6651"
+});
+$("body").append($i);
+$i.animate({
+"top": y - 180,
+"opacity": 0
+},
+1500,
+function() {
+$i.remove();//
+});
+});
+});
+</script>
+</head>
+
+<style type="text/css">
+	       body {
+            font-family: "Microsoft Yahei", "PingFang", "Arial";
+            text-align: center;
+            background-color: #fafafa;
+        }
+
+        p {
+            line-height: 1.5;
+            font-size: 20px;
+            color: #212121;
+            font-weight: 300;
+            text-align: left;
+        }
+        h1 {
+            line-height: 1.5;
+            font-size: 30px;
+            color: #212121;
+            font-weight: 300;
+            text-align: left;
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                width: 1000px;
+                margin: 0 auto;
+                background-color: #fff;
+            }
+
+            .main {
+                border-left: 1px solid #dcddde;
+                border-right: 1px solid #dcddde;
+                background-color: #fafafa;
+            }
+
+            .page-content {
+                margin-left: 40px;
+                margin-right: 40px;
+                padding-top: 40px;
+            }
+
+            .footer {
+                margin-top: 135px;
+            }
+
+        }
+        
+	</style>
+<body>
+	<h1>我在小码王受到了不少不公正待遇</h1>
+
+
+<p>之前一大堆人说我抄袭，然后把我逼疯了都没人安慰我。</p>
+<p>现在就是一个人他自己做的不对，发个啥，一大堆人安慰他，我不是说那些人做的不对，但是凭什么。</p>
+<p>经过对比我发现，不管水平怎么样，在小马王上涨粉速度都一样</p>
+<p>由于关注的人有动态消息，作品热度就会高，这么说，粉丝少的永远都多不起来，粉丝多的会越来越多。</p>
+<p>说新来的永远都不会有出头之日
+	<hr/>
+<h1><a href="aerfaying.com/Users/1091506">到阿尔法营找我吧</a></h1></p>
+
+</body>
+</html>
